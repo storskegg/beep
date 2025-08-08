@@ -1,0 +1,15 @@
+[package]
+name = "beep"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name = "beep"
+path = "src/lib.rs"
+
+[[bin]]
+name = "beep"
+path = "src/main.rs"
+
+[dependencies]
+rodio = "0.21.1"
